@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="TS_wmTestSuite.xml">
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_AddInt">
+        <service folder="Dev_rajeev.ServiceOne" name="AddInt">
+            <input>
+                <file filename="Dev_rajeev_ServiceOne_AddInt_input.xml"/>
+            </input>
+            <expected>
+                <file filename="Dev_rajeev_ServiceOne_AddInt_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
